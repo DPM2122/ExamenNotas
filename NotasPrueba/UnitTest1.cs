@@ -27,7 +27,7 @@ namespace NotasPrueba
             int notE = 2;
             int sbrE = 1;
 
-            estNot estadistica = new estNot();
+            estNot est = new estNot();
         }
     }
 }
