@@ -9,7 +9,7 @@ namespace NotasPrueba
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void pruebaValoresCorrectos()
         {
             List<int> notas = new List<int>();
 
@@ -22,10 +22,11 @@ namespace NotasPrueba
             notas.Add(8);
 
             double mediaEsperada = 5.143;
-            int susE = 3;
-            int aprE = 1;
-            int notE = 2;
-            int sbrE = 1;
+            int suspensosEsperados = 3;
+            int aprobadosEsperados = 1;
+            int notablesesperados = 2;
+            int sobresalienteEsperados = 1;
+
         }
     }
 }
